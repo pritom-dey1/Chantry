@@ -1,0 +1,486 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Light contrast;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-color: #F7E8D4;
+}
+.page1{
+    background-image: url(https://www.chantrywell.com/wp-content/uploads/2024/03/COPERINBA.webp);
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    transition: all linear 1s;
+}
+.page1 .nav h1{
+ font-size: 4vw;
+ transition: all linear;
+}
+.page1 .nav h1:hover{
+    animation: logo infinite linear .1s;
+}
+.page1 button{
+    background-color: #181818;
+    color: aliceblue;
+    padding: .5vw 2.5vw;
+    border-radius: 30px;
+    font-size: 2vw;
+    border: none;
+    transition: all ease-in .2s;
+    
+}
+.page1 button:hover{
+    background-color: #F7E8D4;
+    color: #181818;
+    border: #181818 solid 1px;
+}
+.nav{
+    width: 100vw;
+    height: 18vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.page1 .center{
+width: 100vw;
+height: 50vh;
+
+margin-top: 17vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.page1 .center h3{
+    text-align: center;
+    font-size: 2vw;
+    letter-spacing: 5px;
+    font-weight: 900;
+    line-height: 140%;
+}
+.page1 .center h1{
+    font-size: 7vw;
+    letter-spacing: 5px;
+}
+@keyframes logo {
+    0%{
+        transform: translateX(-.4%);
+    }
+    100%{
+        transform: translateX(.4%);
+    }
+}
+.gola{
+    width: 20vw;
+    height: 40vh;
+    background-color: #F7E8D4;
+ 
+   
+    border-radius: 50%;
+    border: #181818 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 1s;
+ position: sticky;
+
+
+}
+.golar{
+    position: relative;
+    width: 23vw;
+    height: 45vh;
+    
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+    transition: all linear 1s;
+    transition: ease .1s;
+
+}
+.gola i{
+    font-size: 4vw;
+    font-weight: 100;
+    color: #181818;
+}
+.gola::after{
+    content: '';
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #181818;
+    transition: all linear .3s;
+    color: #F7E8D4;
+    z-index: -1;
+}
+.gola:hover::after{
+    width: 100%;
+    color: #F7E8D4;
+    z-index: -1;
+}
+.gola:hover i{
+    color:#F7E8D4;
+    z-index: 10;
+  
+}
+.gola:hover{
+    background-color: crimson;
+}
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7E8D4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2vw 4vw;
+    margin-top: 10vh;
+}
+
+.img1{
+    width: 30%;
+    height: 97%;
+    position: relative;
+}
+.img1  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 10px black );
+   
+}
+.img2{
+    width: 30%;
+    height: 97%;
+   position: relative;
+}
+.img2  img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 10px black );
+}
+.img3{
+    width: 30%;
+    height: 97%;
+ position: relative;
+}
+.img3  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 10px black );
+}
+.img1 h1{
+    position: absolute;
+    top: 63%;
+    line-height: 80%;
+    text-align: center;
+    color: #952E50;
+    font-size: 4vw;
+    transform: translateX(-50%);
+    left: 50%;
+    letter-spacing: 4px;
+
+}
+
+.img1 h2{
+    position: absolute;
+    top: 78%;
+text-wrap: nowrap;
+text-align: center;
+ 
+    color: #952E50;
+   
+    transform: translateX(-50%);
+    left: 50%;
+ 
+}
+.img1 button{
+    color: #952E50;
+    border: #952E50 solid 2px;
+    border-radius: 30px;
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    top: 88%;
+   transform: translateX(-50%);
+  left: 50%;
+  text-wrap: nowrap;
+  font-size: 2vw;
+  background-color: transparent;
+  transition: all linear .1s;
+}
+.img1 button:hover{
+    background-color: #952E50;
+    color: #F7E8D4;
+}
+.img1 img:hover{
+    animation: logo infinite linear .1s;
+}
+.img2 img:hover{
+    animation: logo infinite linear .1s;
+}
+.img3 img:hover{
+    animation: logo infinite linear .1s;
+}
+.page3{
+    width: 100%;
+    height: 20vh;
+background-color: #F7E8D4;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 20vh;
+}
+.page3::-webkit-scrollbar{
+    display: none;
+}
+.page3 h1{
+    font-size: 10vw;
+    display: inline-block;
+    animation: anime infinite linear 15s;
+    margin-right: 10px;
+    letter-spacing: 4px;
+    color: #181818;
+    font-weight: 400;
+}
+@keyframes anime {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-100% - 14px));
+    }
+}
+.img2 h1{
+    position: absolute;
+    top: 65%;
+    line-height: 80%;
+    text-align: center;
+    color: #A16354;
+    font-size: 4vw;
+    transform: translateX(-50%);
+    left: 50%;
+    letter-spacing: 4px;
+    text-wrap: nowrap;
+
+}
+
+.img2 h2{
+    position: absolute;
+    top: 75%;
+width: 90%;
+text-align: center;
+ 
+    color: #A16354;
+   
+    transform: translateX(-50%);
+    left: 50%;
+ 
+}
+.img2 button{
+    color: #A16354;
+    border: #A16354 solid 2px;
+    border-radius: 30px;
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    top: 88%;
+   transform: translateX(-50%);
+  left: 50%;
+
+  font-size: 2vw;
+  background-color: transparent;
+  transition: all linear .1s;
+}
+.img2 button:hover{
+    background-color: #A16354;
+    color: #F7E8D4;
+}
+.img3 h1{
+    position: absolute;
+    top: 65%;
+    line-height: 80%;
+    text-align: center;
+    color: #5F5D59;
+    font-size: 4vw;
+    transform: translateX(-50%);
+    left: 50%;
+    letter-spacing: 4px;
+    text-wrap: nowrap;
+
+}
+
+.img3 h2{
+    position: absolute;
+    top: 75%;
+width: 90%;
+text-align: center;
+ 
+    color: #5F5D59;
+   
+    transform: translateX(-50%);
+    left: 50%;
+ 
+}
+.img3 button{
+    color: #5F5D59;
+    border:#5F5D59 solid 2px;
+    border-radius: 30px;
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    top: 88%;
+   transform: translateX(-50%);
+  left: 50%;
+
+  font-size: 2vw;
+  background-color: transparent;
+  transition: all linear .1s;
+}
+.img3 button:hover{
+    background-color: #5F5D59;
+    color: #F7E8D4;
+}
+.page4{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #F7E8D4;
+    position: relative;
+}
+.page4 p{
+  
+    transform: translateX(-50%);
+    left:50%;
+    position: absolute;
+    margin-top: 10vh;
+    color: black;
+   font-size: 2vw;
+   letter-spacing: 6px;
+   text-align: center;
+   width: 70%;
+    
+}
+.page4 .golar{
+    position: absolute;
+    top: 55%;
+}
+.page5{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.page5 img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 50% ;
+    border-top-left-radius: 50% ;
+}
+.page6{
+    width: 100vw;
+    height: 120vh;
+    background-color: #F7E8D4;
+    position: relative;
+    display: flex;
+}
+.page6 .left{
+    width: 30%;
+    height: 100%;
+    background-color: #5F5D59;
+}
+.page6 .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page6 .right{
+    width: 70%;
+    height: 100%;
+    background-color: #F7E8D4;
+    position: relative;
+    
+}
+.part1{
+    width: 100%;
+    height: 70%;
+
+}
+.part1 h1{
+    width: 100%;
+    height: 17%;
+    padding-left: 2.5vw;
+    border-bottom: #181818 solid 2px;
+    text-align: left;
+    display: flex;
+    font-size: 3.6vw;
+    align-items: center;
+    letter-spacing: 2px;
+    position: relative;
+    transition: all linear .4s;
+    overflow: hidden;
+}
+.part1 h1:hover{
+    background-color: #181818;
+    color: #F7E8D4;
+   
+    
+}
+.a1{
+    width: 100%;
+    height: 14vh;
+    
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+   
+ 
+    padding-left: 3vw;
+    gap: 160px;
+}
+.a1 a{
+    text-decoration: none;
+    color: #181818;
+    font-size: 2vw;
+}
+.a2 a{
+    text-decoration: none;
+    color: #181818;
+    font-size: 2vw;
+}
+.a2{
+    width: 100%;
+    height: 8vh;
+    
+   
+    display: flex;
+    align-items: center;
+   
+ 
+    padding-left: 3vw;
+    gap: 100px;
+}
+.right p{
+padding-left: 3vw;
+margin-top: 3vh;
+font-size: 2vw;
+}
